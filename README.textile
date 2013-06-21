@@ -1,3 +1,5 @@
+Puppy force in action: <a href="http://imgur.com/St8DZyB"><img src="http://i.imgur.com/St8DZyB.gif" title="Hosted by imgur.com" /></a>
+
 Forked from fractastical's "kittenforce" https://github.com/fractastical/KittenForce
 
 Sample usage:

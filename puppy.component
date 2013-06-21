@@ -10,7 +10,7 @@
       <script>
          var darylShaber = false;
       </script>
-      <img src="http://placepuppy.it/g/{!myWidth}/{!myHeight}" width="{!myWidth}" height="{!myHeight}"/>
+      <img src="http://placepuppy.it/{!myWidth}/{!myHeight}" width="{!myWidth}" height="{!myHeight}"/>
 
   </apex:outputPanel> 
 

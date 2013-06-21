@@ -1,8 +1,8 @@
 <apex:component>
 
- <apex:attribute name="myWidth" type="Integer" required="true" description="Width of kitten image" />
- <apex:attribute name="myHeight" type="Integer" required="true" description="Height of kitten image" />
- <apex:attribute name="darylShaber" type="boolean" description="Daryl instead of kitten?" />
+ <apex:attribute name="myWidth" type="Integer" required="true" description="Width of puppy image" />
+ <apex:attribute name="myHeight" type="Integer" required="true" description="Height of puppy image" />
+ <apex:attribute name="darylShaber" type="boolean" description="Daryl instead of puppy?" />
  <apex:attribute name="applyToAll" type="boolean" description="Apply to all images on page?" />
 
   <apex:outputPanel rendered="{!NOT(darylShaber == true)}"> 
@@ -10,7 +10,7 @@
       <script>
          var darylShaber = false;
       </script>
-      <img src="http://placekitten.com/g/{!myWidth}/{!myHeight}" width="{!myWidth}" height="{!myHeight}"/>
+      <img src="http://placepuppy.it/g/{!myWidth}/{!myHeight}" width="{!myWidth}" height="{!myHeight}"/>
 
   </apex:outputPanel> 
 
@@ -36,7 +36,7 @@
                          
                         var src;
                         if(!darylShaber)
-                          src = 'http://placekitten.com/'+w+'/'+h;
+                          src = 'http://placepuppy.it/'+w+'/'+h;
                         else
                           src = 'http://i909.photobucket.com/albums/ac295/fractastical/ds_santa_reasonably_small.png';
                         element.src=src;
